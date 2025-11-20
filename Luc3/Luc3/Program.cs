@@ -15,7 +15,7 @@ namespace Luc3
             Console.WriteLine("Inserisci il tuo cognome: ");
             string cognome = Console.ReadLine();
             Persona persona = new Persona(nome,cognome);
-            Persona.StampaNomeCompleto();
+            persona.StampaNomeCompleto();
 
         }
     }
